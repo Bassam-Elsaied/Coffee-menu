@@ -1,4 +1,4 @@
-export const navLinks = [
+const navLinks = [
   {
     title: "Drinks",
     URL: "/",
@@ -70,3 +70,5 @@ const iceDrinks = [
     price: "60 - 65 EGP",
   },
 ];
+
+export { navLinks, hotDrinks, iceDrinks };
