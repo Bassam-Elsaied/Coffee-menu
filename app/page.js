@@ -1,7 +1,7 @@
 "use client";
 
 import Cocktails from "@/component/Cocktails";
-
+import About from "@/component/About";
 import Hero from "@/component/Hero";
 
 import gsap from "gsap";
@@ -14,6 +14,7 @@ export default function Home() {
     <main>
       <Hero />
       <Cocktails />
+      <About />
     </main>
   );
 }
