@@ -275,14 +275,14 @@ body {
   }
 
   #menu {
-    @apply relative w-full md:mt-40 mt-0 2xl:px-0 px-5 py-20 radial-gradient;
+    @apply relative w-full md:mt-40 mt-0 2xl:px-0 px-5 py-20 radial-gradient overflow-hidden;
 
     #m-left-leaf {
-      @apply object-contain absolute -bottom-20 left-0 md:w-fit w-1/3;
+      @apply object-contain absolute -bottom-20 left-0 md:w-fit w-1/3 overflow-hidden;
     }
 
     #m-right-leaf {
-      @apply object-contain absolute -top-40 right-0 md:w-fit w-1/4;
+      @apply object-contain absolute -top-40 right-0 md:w-fit w-1/4 overflow-hidden;
     }
 
     .cocktail-tabs {

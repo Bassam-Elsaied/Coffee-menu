@@ -30,15 +30,15 @@ function Navbar() {
   return (
     <nav>
       <div>
-        <Link href="/" className="flex items-center gap-2">
-          <Image src={"/images/logo.png"} alt="logo" height={45} width={45} />
-          <p>Coffe</p>
-        </Link>
+        <a href="#home" className="flex items-center gap-2">
+          <img src="/images/logo.png" alt="logo" />
+          <p>offe Bar</p>
+        </a>
 
         <ul>
           {navLinks.map((link) => (
-            <li key={link.title}>
-              <a href={`#${link.URL}`}>{link.title}</a>
+            <li key={link.id}>
+              <a href={`#${link.id}`}>{link.title}</a>
             </li>
           ))}
         </ul>
