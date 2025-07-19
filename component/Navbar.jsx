@@ -32,7 +32,7 @@ function Navbar() {
       <div>
         <a href="#home" className="flex items-center gap-2">
           <img src="/images/logo.png" alt="logo" />
-          <p>offe Bar</p>
+          <p>Coffe Bar</p>
         </a>
 
         <ul>
